@@ -1,0 +1,21 @@
+.my-nav{
+    background-color: black;
+}
+.pic img{
+    height: 85vh;
+}
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .pic img{
+        height: 45vh;
+    }
+  }
+  .bg{
+    background-color: black;
+    padding: 50px;
+  }
+  .d-flex{
+    display: flex;
+    justify-content: space-between;
+  }
