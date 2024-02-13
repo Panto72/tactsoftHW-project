@@ -6,16 +6,38 @@
 }
   
   /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
-    .pic img{
+  @media only screen and (max-width: 576px) {
+    .pic img {
         height: 45vh;
     }
-  }
-  .bg{
+
+    .project img {
+        height: 200px;
+    }
+    .Blog img{
+      height: 50px;
+      width: 100%;
+    }
+}
+
+  .project{
     background-color: black;
-    padding: 50px;
   }
-  .d-flex{
-    display: flex;
-    justify-content: space-between;
-  }
+  .project img {
+    height: 355px;
+    width: 100%;
+}
+.text-justify{
+  text-align: justify;
+}
+.Blog{
+  background-color: black;
+}
+.Blog img{
+  height: 150px;
+  width: 100%;
+}
+.CV img{
+  width: 80%;
+  height: 100%;
+}
